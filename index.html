@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>Portfolio</title>
@@ -13,16 +14,16 @@
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Welcome!</span>
+            <span class="navbar-brand mb-0 h1" style="font-family: Calligraffitti; color: #D4FDE8;">Welcome!</span>
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link smooth-scroll" href="#aboutme">About Me</a>
+                    <a class="nav-link smooth-scroll" style="font-family: Calligraffitti; color: #D4FDE8;" href="#aboutme">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smooth-scroll" href="#mywork">My Work</a>
+                    <a class="nav-link smooth-scroll" style="font-family: Calligraffitti; color: #D4FDE8;" href="#mywork">My Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smooth-scroll" href="#contactme">Contact Me</a>
+                    <a class="nav-link smooth-scroll" style="font-family: Calligraffitti; color: #D4FDE8;" href="#contactme">Contact Me</a>
         </div>
     </nav>
     <header>
@@ -38,14 +39,14 @@
         <!--MAIN CONTENT(Photo and About Me)-->
     </header>
     <div class="container" id="aboutme">
-        <div class="row mb-5">
-            <div class="col-xl-3">
+        <div class="row md-5">
+            <div class="col-lg-3">
                 <div id="photo"><img src="./assests/Me.JPG" style="width: 300px"></div>
             </div>
-            <div class="col-xl-9">
-                <div class="contentaboutme">
-                    <h3>About Me</h3>
-                    <p>From my youngest memories, I remember playing on my DOS computer. This is where my passion of computers started. 
+            <div class="col-lg-9">
+                <div class="contentaboutme" style="font-family: Calligraffitti; font-size: 20px;">
+                    <h3><b>About Me</b></h3>
+                    <p> From my youngest memories, I remember playing on my DOS computer. This is where my passion of computers started. 
                         I was always messing around on the DOS terminal trying to figure it out. Ever since then I knew
                         that I wanted to eventually have a career in computers. I took a while trying to figure out what
                         I actually wanted to do, then I found out about Eleven Fifty Academy I realized that it was the
@@ -53,6 +54,8 @@
                         I'm excited to explore more coding languages after graduation.</p>
                 </div>
                 <div class="col">
+                    <a href="./assests/Resume2.doc.pdf"  download="KaylaKirksResume" style="font-family: Calligraffitti; color: #5F5F50; font-size: 20px;"><b>Download My Resume</b></a>
+                    <br>
                     <a href="https://github.com/Kayla-Kirk"><img src="./assests/github.svg" width="75px"
                             height="75px"></a>
                     <a href="https://www.linkedin.com/in/kayla-kirk-484b32b9/"><img src="./assests/linkedin.svg"
@@ -64,43 +67,57 @@
             </div>
         </div>
     </div>
-
+<div class="col"></div>
     <!--EXAMPLES OF WORK-->
         <div class="container" id="mywork">
-            <div class="row mb-5">
-                <div class="col-12"><h3>My Work</h3></div>
-                <div class="col-md-4">
+            <div class="row md-5">
+                <div class="col-12" style="font-family: Calligraffitti;"><h3><b>My Work</b></h3></div>
+                <div class="col-md-3">
                     <a href="https://github.com/Kayla-Kirk/ResinShop">
                         <img alt="Resin Shop" src="./assests/resinshop.png" width="250" height="250"></a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <a href="https://codepen.io/Therainbowbitme/pen/XWNNWqd">
                         <img alt="Totoro" src="./assests/totoro.png" width="250" height="250"></a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <a href="https://github.com/Kayla-Kirk/Game">
                         <img alt="Fortune Game" src="./assests/fortunegame.png" width="250" height="250"></a>
+                </div>
+                <div class="col-md-3" style="font-family: Calligraffitti; font-size: 25px; color: #5F5F50;">
+                        <ul>
+                        <a href="https://github.com/kmpcool123/Workout-Tracker" style="color: #5F5F50;"><b>Workout Tracker</b></a>
+                        </ul>
+                        <ul>
+                            <a href="https://github.com/Kayla-Kirk/Restaurant-Rater" style="color: #5F5F50;"><b>Restaurant Rater</b></a>
+                        </ul>
+                        <ul>
+                            <a href="https://github.com/Kayla-Kirk/GroceryApp" style="color: #5F5F50;"><b>Grocery App</b></a>
+                        </ul>
+                        <ul>
+                            <a href="https://github.com/Kayla-Kirk/ElevenNote" style="color: #5F5F50;"><b>Eleven Note</b></a>
+                        </ul>
                 </div>
             </div>
         </div>
         <div class="container" id="contactme">
             <div class="row">
-                <div class="col-12"><h3>Contact Me</h3></div>
+                <div class="col-12" style="font-family: Calligraffitti;"><h3><b>Contact Me</b></h3></div>
                 <div class="col">
                 <div class="containercontactme">
                     <form action="action_page.php">
 
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name">
+                        <label for="fname" style="font-weight: bold;">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder=" Your Name">
 
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                        <label for="lname" style="font-weight: bold;">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder=" Your Last Name">
 
-                        <label for="email">E-Mail</label>
-                        <input type="text" id="email" name="email" placeholder="Your E-Mail">
+                        <label for="email" style="font-weight: bold;">E-Mail</label>
+                        <input type="text" id="email" name="email" placeholder=" Your E-Mail">
 
-                        <label for="subject">Write To Me</label>
-                        <textarea id="subject" name="subject" placeholder="Leave a message after the beep..."
+                        <label for="subject" style="font-weight: bold;">Write To Me</label>
+                        <textarea id="subject" name="subject" placeholder=" Leave a message after the beep..."
                             style="height:200px"></textarea>
 
                         <input type="submit" value="Submit">
@@ -114,7 +131,7 @@
 
     <!--Footer-->
     <footer>
-        <span>&copy;2021</span>
+        <span style="font-family: Calligraffitti;">&copy;2021</span>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
